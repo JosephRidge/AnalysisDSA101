@@ -6,14 +6,12 @@
 
 ![alt text](screen-shots/stats-103.png)
 
-References:
+## **References:**
 [Pandas Documentation](https://pandas.pydata.org/)
 
-Data Source: 
-Yeh, I. (1998). Concrete Compressive Strength [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5PK67.
+[Extra Learning resources](https://drive.google.com/drive/folders/1yKVSfVAAWDfwdwRgAWtJHzopoLKHrg1b?usp=sharing)
 
-Methodology:
-
+## **Core Methodology:**
 ![alt text](screen-shots/crisp-dm.png)
 
 
