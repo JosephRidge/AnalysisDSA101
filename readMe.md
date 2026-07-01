@@ -43,7 +43,7 @@
 
 [Extra Learning resources](https://drive.google.com/drive/folders/1yKVSfVAAWDfwdwRgAWtJHzopoLKHrg1b?usp=sharing)
 
-## **Core Methodology:**
+## **CRISP-DM (Core Methodology):**
 ![alt text](screen-shots/crisp-dm.png)
 
 
