@@ -45,5 +45,3 @@
 
 ## **CRISP-DM (Core Methodology):**
 ![alt text](screen-shots/crisp-dm.png)
-
-
