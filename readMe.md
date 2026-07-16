@@ -41,11 +41,18 @@
 ## Population | Samples | Sampling techniques | Measures of Dispersion
 ![alt text](screen-shots/population_smaple_mod_intro.png)
 
-## **References:**
-[Pandas Documentation](https://pandas.pydata.org/)
+### Measures of Dispersion
+![alt text](screen-shots/measures_of_disp.png)
 
-[Extra Learning resources](https://drive.google.com/drive/folders/1yKVSfVAAWDfwdwRgAWtJHzopoLKHrg1b?usp=sharing)
+### **Box Plot**
+![alt text](screen-shots/box-plot.png)
 
 
 ## **CRISP-DM (Core Methodology):**
 ![alt text](screen-shots/crisp-dm.png)
+
+
+## **References:**
+[Pandas Documentation](https://pandas.pydata.org/)
+
+[Extra Learning resources](https://drive.google.com/drive/folders/1yKVSfVAAWDfwdwRgAWtJHzopoLKHrg1b?usp=sharing)
