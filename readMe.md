@@ -55,4 +55,6 @@
 ## **References:**
 [Pandas Documentation](https://pandas.pydata.org/)
 
+[Five-Number Summary and Boxplot](https://openbooks.macewan.ca/introstats/chapter/2-4-five-number-summary-and-boxplot/)
+
 [Extra Learning resources](https://drive.google.com/drive/folders/1yKVSfVAAWDfwdwRgAWtJHzopoLKHrg1b?usp=sharing)
