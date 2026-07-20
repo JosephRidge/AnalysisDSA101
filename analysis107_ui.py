@@ -5,7 +5,8 @@
 
 import streamlit as st
 import pandas as pd
-
+import matplotlib.pyplot as plt 
+import utility as util
 # ---------------------------------------------------
 # Page Configuration
 # ---------------------------------------------------
@@ -15,6 +16,9 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
+
+# Read Data
+df = pd.read_csv("data/genai_usage/genai_llm_usage_dataset_1000.csv")
 
 # ---------------------------------------------------
 # Custom Theme (Black & Gold)
@@ -210,6 +214,7 @@ c3.metric("Missing Values", "0")
 c4.metric("Dataset Quality", "100%")
 
 st.divider()
+ 
 
 # ---------------------------------------------------
 # Business Understanding
@@ -260,6 +265,33 @@ st.divider()
 # ---------------------------------------------------
 
 st.subheader("Data Understanding")
+
+
+st.markdown("""
+<div>
+    <h5>Where was the GenAI applied?</h5>
+</div>
+
+""", unsafe_allow_html=True)
+
+
+application_domain = df['application_domain'].value_counts()
+st.dataframe(application_domain)
+application_domain.plot.pie(autopct='%1.1f%%')
+# plt.ylabel('Count') # Hide y-label
+ 
+# Pie chart, where the slices will be ordered and plotted counter-clockwise:
+labels = df['application_domain'].value_counts().index 
+counts =df['application_domain'].value_counts().values
+ 
+# fig1, ax1 = plt.subplots()
+# ax1.pie(counts,   labels=labels, autopct='%1.1f%%',
+#         )
+# ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
+
+# st.pyplot(fig1)
+
+util.plotPieChart(frequencies=counts, labels=labels)
 
 c1,c2,c3,c4 = st.columns(4)
 
